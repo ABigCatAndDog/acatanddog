@@ -3,10 +3,10 @@
 using namespace std;
 int main()
 {
-    int a=12,b=14;
+    int a=12,b=15;
     int &c=a;
+    //你干嘛，哎哟
     string str("litao");
-    cout<<str<<endl;
     cout<<sum(a,b)<<endl;
     return 0;
 }
